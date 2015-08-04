@@ -1,0 +1,19 @@
+@(navbar: objects.NavBar)
+<script>
+	function navClicked(id) {
+		"use strict";
+	    var drop, children, i;
+	    drop = document.getElementById(id).getElementsByClassName("dropdown-menu")[0];
+	    if (drop.style.display === "block") {
+	        drop.style.display = "none";
+	        for (i = 0; i < drop.children.length; i = i + 1) {
+	            closeChildren(drop.children[i]);
+	        }
+	    } else if (drop.style.display === "none") {
+	        drop.style.display = "block";
+	    } else {
+	        drop.style.display = "block";
+	    }
+	}
+</script>
+@navbar.toHtml()

@@ -1,0 +1,118 @@
+@(content: Html)
+<style>
+	content {
+	    position: fixed;
+	    width: calc(100% - 25px);
+	    left: 25px;
+	    top: 40px;
+	    right: 0;
+	    bottom: 0;
+	    background-color: #fff;
+	    overflow: auto;
+	    z-index: 0;
+	    -webkit-transform-origin: 0 50%;
+	    -moz-transform-origin: 0 50%;
+	    -ms-transform-origin: 0 50%;
+	    -o-transform-origin: 0 50%;
+	    transform-origin: 0 50%;
+	}
+	content:after {
+	    position: absolute;
+	    content: ' ';
+	    left: 100%;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    background-image: -webkit-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	    background-image: -moz-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	    background-image: -ms-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	    background-image: -o-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	    background-image: linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	    pointer-events: none;
+	}
+	slider {
+	    position: fixed;
+	    left: calc(-15% + 25px);
+	    width: 15%;
+	    top: 40px;
+	    bottom: 0;
+	    background-color: #0055BB;
+	    border-right: 50px solid #00BBBB;
+	    box-shadow: 4px 0 5px rgba(0,0,0,0.2);
+	    z-index: 1;
+	    cursor: pointer;
+	    opacity: 0.5;
+	}
+	slider:after {
+	    position: absolute;
+	    content: ' ';
+	    width: 0;
+	    height: 0;
+	    right: -110px;
+	    top: calc(50% - 45px);
+	    border-width: 45px 30px;
+	    border-style: solid;
+	    border-color: transparent transparent transparent #00BBBB;
+	    opacity: 0.5;
+	}
+	slider ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 1em;
+	}
+	slider ul a {
+		color: #00DD00;
+		font-size: 20px;
+	}
+	content, content:after, slider, slider * {
+	    -webkit-transition: all 600ms ease;
+	    -moz-transition: all 600ms ease;
+	    -ms-transition: all 600ms ease;
+	    -o-transition: all 600ms ease;
+	    transition: all 600ms ease;
+	}
+	slider:hover {
+	    left: 0;
+	}
+	slider:hover ~ content {
+	    -webkit-transform: translateX(15%);
+	    -moz-transform: translateX(15%);
+	    -ms-transform: translateX(15%);
+	    -o-transform: translateX(15%);
+	    transform: translateX(15%);
+	    width: calc(85% + 25px);
+	}
+	slider:hover ~ content:after {
+	    left: 80%;
+	}
+	na {
+		
+	    border: 20px solid #00BBBB;
+	    border: #fff dotted thick;
+	}
+</style>
+<slider>
+	<ul id="userLinks">
+	</ul>
+</slider>
+<script>
+	function addLink(name, link) {
+		var slide = document.getElementById("userLinks");
+		var newLink = document.createElement("a");
+		newLink.innerHTML = name;
+		newLink.href = link;
+		var newItem = document.createElement("li")
+		newItem.appendChild(newLink);
+		slide.appendChild(newItem);
+	}
+	if(window.sessionStorage.getItem("loggedIn") == "true") {
+		
+	} else {
+		addLink("Signup", "/account/signup");
+		addLink("Login", "/account/login");
+	}
+</script>
+<content>
+	@content
+</content>
+@elements.tutorial()

@@ -1,0 +1,29 @@
+@()
+<style>
+	#tutorial-popup {
+		background-color: #fff;
+		border: 5px solid blue;
+		border-radius: 5px;
+		position: fixed;
+		height: 75px;
+		top: calc(50% - 40px);
+		left: 10%;
+	}
+	#tutorial-popup h4 {
+		margin: 0;
+	}
+</style>
+<div id="tutorial-popup" class="tutorial-popup">
+	<h4>Click on a button along the top of the screen to navigate to that page.</h4>
+	<button type="button" onclick="buttonClicked();">Done</button>
+	<h4><!--<img src="@routes.Assets.versioned("images/left-arrow.png")"/>--!>Mouseover this sidebar to open the user menu.</h4>
+</div>
+<script>
+	function buttonClicked() {
+		window.localStorage.setItem("tutorial", "done");
+		document.getElementById("tutorial-popup").style.display = "none";
+	}
+	if(window.localStorage.getItem("tutorial") == "done") {
+		buttonClicked();
+	}
+</script>

@@ -1,0 +1,26 @@
+@(title: String, navbar: objects.NavBar, head: Html, styles: List[String], scripts: List[String], content: Html)
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/bootstrap.css")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/bootstrap-theme.css")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/index.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+        <script src="@routes.Assets.versioned("javascripts/5user.js")"></script>
+        <script src="@routes.Assets.versioned("javascripts/announcement.js")"></script>
+        <script src="@routes.Assets.versioned("javascripts/dropdown.js")"></script>
+        @for(script <- scripts) {
+        	<script src="@routes.Assets.versioned("javascripts/"+script)"></script>
+        }
+        @for(style <- styles) {
+        	<link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/"+style)"/>
+        }
+    </head>
+    <body>
+    	@nav(navbar)
+        @elements.usermenu(content)
+    </body>
+</html>

@@ -1,0 +1,156 @@
+.jumbotron {
+    position: relative;
+    z-index: 4;
+    padding: 0;
+    margin: 0;
+}
+#mainJumbo {
+    height: inherit;
+    display: block;
+}
+.jumbotron .containerindex {
+    height: 90%;
+    color: red;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+    position: relative;
+    background-size: contain;
+    z-index: 5;
+}
+.jumbotron .containerdnd {
+    background-image: url("../images/HERO_StartBox.jpg"); 
+    color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+.Announcement {
+    background-color: red;
+    text-align: center;
+}
+.adamplays {
+	background-image: url("../images/pika.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: block;
+    color: red;
+}
+
+/*width: inherit*/
+
+
+
+.DndDownloads {
+    text-align: center;
+    color: green;
+}
+
+#githubcode {
+}
+
+
+thought {
+    font-size: 10px;
+}
+
+.side-heading-left {
+    transform: rotate(-35deg) translateY(-75px);
+    left: 12%;
+    text-align: center;
+    vertical-align: middle;
+}
+.side-left {
+    transform: rotate(-35deg);
+    left: 12%;
+    text-align: center;
+    vertical-align: middle;
+}
+.side-right {
+    transform: rotate(35deg);
+    right: 12%;
+    text-align: center;
+    vertical-align: middle;
+}
+.side-heading-right {
+    transform: rotate(35deg) translateY(-75px);
+    right: 12%;
+    text-align: center;
+    vertical-align: middle;
+}
+.center-desc {
+    text-align: center;
+    vertical-align: middle;
+}
+.center {
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+code {
+    text-align: left;
+    left: 15%;
+    right: 15%;
+    position: relative;
+    display: block;
+    width: 70%;
+}
+coder {
+    border-color: green;
+    border-width: thick;
+    border-style: solid;
+    left: 15%;
+    right: 15%;
+    position: relative;
+    display: block;
+    width: 70%;
+    text-align: left;
+}
+huge {
+    font-size: 100px;
+}
+.bigThing {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.containerindex .row {
+    
+}
+
+ad {
+    position: relative;
+}
+
+nav {
+    position: relative;
+}
+
+.col-sm-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#addiv {
+    left: calc(50% - 365px);
+    left: calc(50% - 365px);
+    top: 3px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    outline-style: solid;
+    outline-color: aqua;
+    outline-width: medium;
+    width: 730px;
+    position: relative;
+    height: 150px;
+    text-align: center;
+}
