@@ -23,7 +23,7 @@
 		window.localStorage.setItem("tutorial", "done");
 		document.getElementById("tutorial-popup").style.display = "none";
 	}
-	if(window.localStorage.getItem("tutorial") == "done") {
+	if(window.localStorage.getItem("tutorial") !== "go") {
 		buttonClicked();
 	}
 </script>

@@ -13,7 +13,13 @@
                 <br>
                 <p>What is the Ezreb Clan?</p>
                 <p>The Ezreb Clan is my non-existant fanbase. You guys are all awesome!</p>
-                <p>Click <a>here</a> to learn more about the website. Otherwise, check out the different tabs along the top!</p>
+                <script>
+                	function clearLS() {
+                		window.localStorage.setItem("tutorial", "go");
+						document.getElementById("tutorial-popup").style.display = "initial";
+                	}
+                </script>
+                <p>Click <a href="javascript:void(0);" onclick="clearLS();">here</a> to learn more about the website, or just explore!</p>
             </div>
         </div>
     </div>

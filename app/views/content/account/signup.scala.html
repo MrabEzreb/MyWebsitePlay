@@ -1,0 +1,9 @@
+@(form: Form[User.FormModel])
+<h3>Please enter all information and click submit</h3>
+@helper.form(action = routes.Account.signupPost()) {
+	@helper.inputText(form("name"))
+	@helper.inputText(form("email"))
+	@helper.inputText(form("username"))
+	@helper.inputPassword(form("password"))
+	<input type="Submit">
+}

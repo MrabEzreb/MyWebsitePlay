@@ -9,5 +9,7 @@ GET     /                           controllers.Home.index()
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 GET		/social						controllers.Home.social()
 GET		/games/minecraft			controllers.Games.minecraft()
+GET		/account/signup				controllers.Account.signup()
+POST	/account/signup				controllers.Account.signupPost()
 # Map anything not recognized to a 404 page
 GET		/*four04					controllers.Application.four04(four04)

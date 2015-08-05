@@ -1,0 +1,9 @@
+New log file opened at Wed Aug 05 11:24:55 EDT 2015 by 1704@E430-SPED-22
+Sending msg to client play-fork-run-f5459940-0644-4d54-a628-37c6e68810d1: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: C:\Users\bram.zerbe\website-java-play\.sbtserver\connections\master.log))
+Sending msg to client play-fork-run-f5459940-0644-4d54-a628-37c6e68810d1: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: C:\Users\bram.zerbe\website-java-play\.sbtserver\master.log))
+Sending msg to client play-fork-run-f5459940-0644-4d54-a628-37c6e68810d1: DetachedLogEvent(LogMessage(debug,sbt client logs are in: C:\Users\bram.zerbe\website-java-play\.sbtserver\connections\play-fork-run-f5459940-0644-4d54-a628-37c6e68810d1.log))
+Reading next message from client.
+Client play-fork-run-f5459940-0644-4d54-a628-37c6e68810d1 closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Client play-fork-run-f5459940-0644-4d54-a628-37c6e68810d1 thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-f5459940-0644-4d54-a628-37c6e68810d1
