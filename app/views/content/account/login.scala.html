@@ -1,0 +1,7 @@
+@(form: Form[User.LoginModel], redir: String)
+<h3>Please enter all information and click submit</h3>
+@helper.form(action = routes.Account.loginPostRedir(redir)) {
+	@helper.inputText(form("username"))
+	@helper.inputPassword(form("password"))
+	<input type="Submit" text="Login">
+}

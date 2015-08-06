@@ -1,0 +1,11 @@
+@(username: String, redir: String)
+<html>
+	<head>
+		<script>
+			window.localStorage.setItem("username", @username);
+		</script>
+	</head>
+	<body>
+		<meta http-equiv="refresh" content="10;URL='@redir'" />
+	</body>
+</html> 

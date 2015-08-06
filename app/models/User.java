@@ -51,4 +51,13 @@ public class User extends Model {
 		public String password;
 	}
 	
+	public static class LoginModel {
+
+		public static final Form<User.LoginModel> loginForm = Form.form(User.LoginModel.class);
+		@Required
+		public String username;
+		@Required
+		public String password;
+	}
+	
 }

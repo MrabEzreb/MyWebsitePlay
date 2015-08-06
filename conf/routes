@@ -4,6 +4,9 @@
 
 # Home page
 GET     /                           controllers.Home.index()
+GET		/login						controllers.Account.login()
+GET		/*redir/login				controllers.Account.loginRedir(redir)
+POST	/*redir/login				controllers.Account.loginPostRedir(redir)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

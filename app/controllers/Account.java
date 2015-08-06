@@ -5,17 +5,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-import javax.sql.DataSource;
-
-import com.avaje.ebean.EbeanServer;
-
 import models.User;
 import models.User.FormModel;
-import play.db.DB;
+import models.User.LoginModel;
 import play.mvc.Controller;
 import play.mvc.Result;
 import play.twirl.api.Html;
 import views.html.basepage2;
+import views.html.content.account.login;
 import views.html.content.account.signup;
 import views.html.content.admin.users;
 
@@ -30,6 +27,23 @@ public class Account extends Controller {
 		User user = new User(model);
 		user.insert();
 		return ok(basepage2.render("Success", Home.NAVBAR, new Html(""), new Html("<h2>Thank you for signing up. Please check your email to complete the process</h2>")));
+	}
+	
+	public Result loginPost() {
+		return ok();
+	}
+	
+	public Result loginPostRedir(String redir) {
+		LoginModel model = User.LoginModel.loginForm.bindFromRequest().get();
+		return ok(views.html.content.account.loginPost.render(model.username, "/"+redir));
+	}
+	
+	public Result login() {
+		return ok(/*basepage2.render("Login", Home.NAVBAR, new Html(""), login.render(User.FormModel.userForm))*/);
+	}
+	
+	public Result loginRedir(String redir) {
+		return ok(basepage2.render("Login", Home.NAVBAR, new Html(""), login.render(User.LoginModel.loginForm, redir)));
 	}
 	
 	public Result getSignups() {
