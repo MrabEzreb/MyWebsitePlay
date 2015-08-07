@@ -17,7 +17,8 @@ public class Home extends Controller {
 			new NavElement("Social", "/social"),
 			new NavDrop("Games", new NavElement[] {
 					new NavElement("Minecraft", "/games/minecraft"),
-			})
+			}),
+			new NavElement("Coding", "/coding")
 	});
 	public Result index() {
         return ok(basepage2.render("Home", NAVBAR.getWithSelected(0), new Html(""), index.render()));

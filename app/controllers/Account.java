@@ -35,6 +35,9 @@ public class Account extends Controller {
 	
 	public Result loginPostRedir(String redir) {
 		LoginModel model = User.LoginModel.loginForm.bindFromRequest().get();
+		if(model.username.equals("FacebookLogin")) {
+			return redirect(routes.Account.loginRedir(redir));
+		}
 		return ok(views.html.content.account.loginPost.render(model.username, "/"+redir));
 	}
 	
@@ -60,5 +63,11 @@ public class Account extends Controller {
 			e.printStackTrace();
 		}
 		return internalServerError();
+	}
+	
+	public Result signupPostGoogle() {
+		System.out.println(request().body().asFormUrlEncoded().get("loginType")[0]);
+		System.out.println(request().body().asFormUrlEncoded().get("token")[0]);
+		return ok();
 	}
 }

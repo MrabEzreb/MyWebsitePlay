@@ -12,6 +12,8 @@
         <script src="@routes.Assets.versioned("javascripts/5user.js")"></script>
         <script src="@routes.Assets.versioned("javascripts/announcement.js")"></script>
         <script src="@routes.Assets.versioned("javascripts/dropdown.js")"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="142973573252-v7hujkk8tb5ptc7f09hev368hj3t9bb9.apps.googleusercontent.com">
         @for(script <- scripts) {
         	<script src="@routes.Assets.versioned("javascripts/"+script)"></script>
         }
@@ -20,6 +22,23 @@
         }
     </head>
     <body>
+	    <script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '406589886132464',
+		      xfbml      : true,
+		      version    : 'v2.4'
+		    });
+		  };
+		
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
     	@nav(navbar)
         @elements.usermenu(content)
     </body>

@@ -1,9 +1,55 @@
 @(form: Form[User.FormModel])
-<h3>Please enter all information and click submit</h3>
-@helper.form(action = routes.Account.signupPost()) {
-	@helper.inputText(form("name"))
-	@helper.inputText(form("email"))
-	@helper.inputText(form("username"))
-	@helper.inputPassword(form("password"))
-	<input type="Submit">
-}
+<style>
+	th, td {
+	    padding: 5px 15px;
+	}
+	table {
+		width: 60%;
+		left: 20%;
+		position: absolute;
+	}
+</style>
+<script>
+	function onGooglePlusSignIn(googleUser) {
+		var profile = googleUser.getBasicProfile();
+		console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+		console.log('Name: ' + profile.getName());
+		console.log('Image URL: ' + profile.getImageUrl());
+		console.log('Email: ' + profile.getEmail());
+		var id_token = googleUser.getAuthResponse().id_token;
+		var xhr = new XMLHttpRequest();
+		xhr.open('POST', 'http://'+window.location.hostname+"/signupPostGoogle");
+		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		xhr.onload = function() {
+		  console.log('Signed in as: ' + xhr.responseText);
+		};
+		xhr.send('loginType=google&token=' + id_token+'&);
+	}
+</script>
+<table width="60%">
+	<tr id="top">
+		<th style="text-align: center;">Basic Login:</th>
+		<th style="text-align: center;">Alternatively (DONT USE THESE THEY DONT WORK):</th>
+	</tr>
+	<tr>
+		<td rowspan="4">
+			@helper.form(action = routes.Account.signupPost()) {
+				@helper.inputText(form("name"))
+				@helper.inputText(form("email"))
+				@helper.inputText(form("username"))
+				@helper.inputPassword(form("password"))
+				<input type="Submit">
+			}
+		</td>
+		<td>Facebook Login: Working On It! :D</td>
+	</tr>
+	<tr>
+		<td>Twitter Login: Working On It! :D</td>
+	</tr>
+	<tr>
+		<td><span class="g-signin2" data-onsuccess="onGooglePlusSignIn"/></td>
+	</tr>
+	<tr>
+		<td>Microsoft Login: Working On It! :D</td>
+	</tr>
+</table>
