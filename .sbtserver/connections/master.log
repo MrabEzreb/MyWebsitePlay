@@ -5,3 +5,18 @@ New client attempting to connect on port: 50765-50764
 This client on port 50765 has uuid b21c5291-d2c1-49c7-8ebf-4baf338dafc3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
 Connected Clients: activator-b21c5291-d2c1-49c7-8ebf-4baf338dafc3
 Taking next connection to: 50764
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50764
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50764
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50764
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50764
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50764
