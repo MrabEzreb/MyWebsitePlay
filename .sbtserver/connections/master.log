@@ -1,7 +1,7 @@
-New log file opened at Mon Aug 10 07:45:36 EDT 2015 by 5200@E430-SPED-22
-Taking next connection to: 50419
-New client attempting to connect on port: 50420-50419
-  Address = /10.96.15.8:50419
-This client on port 50420 has uuid 150da4f9-1ee6-498a-a8b3-7a8a178ccfe4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-150da4f9-1ee6-498a-a8b3-7a8a178ccfe4
-Taking next connection to: 50419
+New log file opened at Mon Aug 10 08:02:43 EDT 2015 by 3672@E430-SPED-22
+Taking next connection to: 50764
+New client attempting to connect on port: 50765-50764
+  Address = /10.96.15.8:50764
+This client on port 50765 has uuid b21c5291-d2c1-49c7-8ebf-4baf338dafc3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-b21c5291-d2c1-49c7-8ebf-4baf338dafc3
+Taking next connection to: 50764
