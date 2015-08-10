@@ -1,28 +1,7 @@
-New log file opened at Mon Aug 10 08:02:43 EDT 2015 by 3672@E430-SPED-22
-Taking next connection to: 50764
-New client attempting to connect on port: 50765-50764
-  Address = /10.96.15.8:50764
-This client on port 50765 has uuid b21c5291-d2c1-49c7-8ebf-4baf338dafc3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-b21c5291-d2c1-49c7-8ebf-4baf338dafc3
-Taking next connection to: 50764
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50764
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50764
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50764
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50764
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50764
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50764
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50764
+New log file opened at Mon Aug 10 08:28:54 EDT 2015 by 1152@E430-SPED-22
+Taking next connection to: 51089
+New client attempting to connect on port: 51090-51089
+  Address = /10.96.15.8:51089
+This client on port 51090 has uuid 78f54909-a1ba-4558-b970-97aeed0c9825 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-78f54909-a1ba-4558-b970-97aeed0c9825
+Taking next connection to: 51089
