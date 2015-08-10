@@ -9465,4 +9465,79 @@ Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinish
 Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,177,Some(AttributeKey[sbt.Compiler$IncSetup]("incCompileSetup") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
 Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,149,Some(AttributeKey[sbt.Compiler$Inputs]("compileInputs") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile"))))
 Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,242,Some(AttributeKey[sbt.Compiler$PreviousAnalysis]("readAnalysis") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
-Sending msg to client activator-78f54909-a1ba-4558-b970-97a
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,149,Some(AttributeKey[sbt.Compiler$Inputs]("compileInputs") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile"))),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,146,Some(AttributeKey[scala.Option[xsbti.Reporter]]("compilerReporter") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile"))))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,242,Some(AttributeKey[sbt.Compiler$PreviousAnalysis]("readAnalysis") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,146,Some(AttributeKey[scala.Option[xsbti.Reporter]]("compilerReporter") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile, Task: AttributeKey[sbt.inc.Analysis]("compile"))),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,145,Some(AttributeKey[sbt.compiler.IC$Result]("compileIncremental") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskLogEvent(145,LogMessage(debug,
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskLogEvent(145,LogMessage(debug,All initially invalidated sources: Set()
+))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,145,Some(AttributeKey[sbt.compiler.IC$Result]("compileIncremental") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,144,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,144,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,143,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,143,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,250,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("playEbeanModels") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,142,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,142,Some(AttributeKey[sbt.compiler.IC$Result]("manipulateBytecode") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,141,Some(AttributeKey[sbt.inc.Analysis]("compile") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,141,Some(AttributeKey[sbt.inc.Analysis]("compile") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,140,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,140,Some(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: ValueChanged(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile),TaskSuccess(BuildValue(LazyValue(List(),scala.pickling.PicklerUnpickler$DelegatingPicklerUnpickler@4987351c),List())))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,139,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,139,None,true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(3,138,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(3,138,None,true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,cancel strategy finish enabled=false lastCommand=Some(LastCommand(CommandExecutionWork(ExecutionId(3),{file:/C:/Users/bram.zerbe/website-java-play/}root/compile:discoveredMainClasses,Set(LiveClient(activator 78f54909-a1ba-4558-b970-97aeed0c9825)),sbt.server.WorkCancellationStatus$$anon$1@66ff65a)))))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogSuccess(Total time: 1 s, completed Aug 10, 2015 8:29:26 AM))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,> server-post-command-cleanup))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: ExecutionSuccess(3)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: ExecutionStarting(4)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,> {file:/C:/Users/bram.zerbe/website-java-play/}root/compile:mainClass))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,Evaluating tasks: compile:mainClass))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,Running task... Cancel: sbt.server.ServerTaskCancellation@636715b0, check cycles: false))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,cancel strategy start enabled=true lastCommand=Some(LastCommand(CommandExecutionWork(ExecutionId(4),{file:/C:/Users/bram.zerbe/website-java-play/}root/compile:mainClass,Set(LiveClient(activator 78f54909-a1ba-4558-b970-97aeed0c9825)),sbt.server.WorkCancellationStatus$$anon$1@6ab758bb)))))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(4,274,Some(AttributeKey[scala.Option[java.lang.String]]("mainClass") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(4,274,Some(AttributeKey[scala.Option[java.lang.String]]("mainClass") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile)),true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: ValueChanged(AttributeKey[scala.Option[java.lang.String]]("mainClass") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile),TaskSuccess(BuildValue(LazyValue(Some(play.core.server.ProdServerStart),scala.pickling.PicklerUnpickler$DelegatingPicklerUnpickler@3581f8b8),Some(play.core.server.ProdServerStart))))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(4,273,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(4,273,None,true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskStarted(4,272,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: TaskFinished(4,272,None,true,None)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,cancel strategy finish enabled=false lastCommand=Some(LastCommand(CommandExecutionWork(ExecutionId(4),{file:/C:/Users/bram.zerbe/website-java-play/}root/compile:mainClass,Set(LiveClient(activator 78f54909-a1ba-4558-b970-97aeed0c9825)),sbt.server.WorkCancellationStatus$$anon$1@6ab758bb)))))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogSuccess(Total time: 0 s, completed Aug 10, 2015 8:29:26 AM))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,> server-post-command-cleanup))
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: ExecutionSuccess(4)
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request))
+Got request: UnlistenToEvents()
+Reading next message from client.
+Sending msg to client activator-78f54909-a1ba-4558-b970-97aeed0c9825: (22,ReceivedResponse())
+Got request: UnlistenToValue(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile))
+Reading next message from client.
+Got request: UnlistenToValue(AttributeKey[scala.Option[java.lang.String]]("mainClass") in Scope(Build: file:/C:/Users/bram.zerbe/website-java-play/, , Project: ProjectReference(file:/C:/Users/bram.zerbe/website-java-play/,root), Config: compile))
+Reading next message from client.
+Got request: UnlistenToBuildChange()
+Reading next message from client.
+Client activator-78f54909-a1ba-4558-b970-97aeed0c9825 closed, java.net.SocketException: Software caused connection abort: recv failed, shutting down
+Stopping client.
+Dropping message (23,ReceivedResponse()) to dead client activator-78f54909-a1ba-4558-b970-97aeed0c9825
+Dropping message (24,ReceivedResponse()) to dead client activator-78f54909-a1ba-4558-b970-97aeed0c9825
+Dropping message (25,ReceivedResponse()) to dead client activator-78f54909-a1ba-4558-b970-97aeed0c9825
+Dropping message (0,ReceivedResponse()) to dead client activator-78f54909-a1ba-4558-b970-97aeed0c9825
+Client activator-78f54909-a1ba-4558-b970-97aeed0c9825 thread exiting.
