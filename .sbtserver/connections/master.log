@@ -1,61 +1,37 @@
-New log file opened at Mon Aug 10 08:28:54 EDT 2015 by 1152@E430-SPED-22
-Taking next connection to: 51089
-New client attempting to connect on port: 51090-51089
-  Address = /10.96.15.8:51089
-This client on port 51090 has uuid 78f54909-a1ba-4558-b970-97aeed0c9825 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-78f54909-a1ba-4558-b970-97aeed0c9825
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51089
+New log file opened at Tue Aug 11 07:37:28 EDT 2015 by 4552@E430-SPED-22
+Taking next connection to: 49648
+New client attempting to connect on port: 49652-49648
+  Address = /10.96.15.8:49648
+This client on port 49652 has uuid 6c2f5210-383c-466a-b85c-7d78de0b341c configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-6c2f5210-383c-466a-b85c-7d78de0b341c
+Taking next connection to: 49648
+New client attempting to connect on port: 49653-49648
+  Address = /10.96.15.8:49648
+Handshake exception on socket: 49653
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 49648
+New client attempting to connect on port: 49654-49648
+  Address = /10.96.15.8:49648
+This client on port 49654 has uuid c077fef0-edbf-4ab1-a7b8-ef3a189d0a8c configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-6c2f5210-383c-466a-b85c-7d78de0b341c, activator-c077fef0-edbf-4ab1-a7b8-ef3a189d0a8c
+Taking next connection to: 49648
 Checking to see if clients are empty...
 No non-daemon clients connected after 3 min. Shutting down.
 Server socket thread exiting.
 0 clients open, will close them...
 All client sockets have been closed.
-Closing the 1152@E430-SPED-22 logs at Mon Aug 10 09:33:48 EDT 2015, goodbye.
+Closing the 4552@E430-SPED-22 logs at Tue Aug 11 07:40:57 EDT 2015, goodbye.

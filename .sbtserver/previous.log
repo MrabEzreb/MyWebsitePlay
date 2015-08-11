@@ -1,5 +1,5 @@
-New log file opened at Mon Aug 10 08:02:43 EDT 2015 by 3672@E430-SPED-22
-jvm 3672@E430-SPED-22
+New log file opened at Mon Aug 10 08:28:54 EDT 2015 by 1152@E430-SPED-22
+jvm 1152@E430-SPED-22
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.45-b02
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\bram.zerbe\website-java-play\project, returning: (website-java-play-build)
 Loading project definition from C:\Users\bram.zerbe\website-java-play\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@302b646c, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@6925312, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,7 +69,7 @@ Set current project to play-java (in build file:/C:/Users/bram.zerbe/website-jav
 > server-handle-next-server-request
 > {file:/C:/Users/bram.zerbe/website-java-play/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@2f60f9a6, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@34291919, check cycles: false
 Read from stdout: Updating {file:/C:/Users/bram.zerbe/website-java-play/}root...
 Updating {file:/C:/Users/bram.zerbe/website-java-play/}root...
 Other repositories:
@@ -84,7 +84,7 @@ resolving dependencies for configuration 'compile'
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 Read from stdout: Resolving org.scala-lang#scala-library;2.11.6 ...
 Resolving org.scala-lang#scala-library;2.11.6 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40163a34
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13ac8682
 sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -551,7 +551,7 @@ downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-as
 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (123ms)
+	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (193ms)
 Read from stdout: Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
@@ -1440,7 +1440,7 @@ sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelin
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.4.2 [compile->default(compile)]
 Read from stdout: Resolving com.typesafe.play#play-java-jdbc_2.11;2.4.2 ...
 Resolving com.typesafe.play#play-java-jdbc_2.11;2.4.2 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63edd4fa
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d06b93c
 sbt-chain: module revision found in cache: com.typesafe.play#play-java-jdbc_2.11;2.4.2
 	found com.typesafe.play#play-java-jdbc_2.11;2.4.2 in sbt-chain
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.4.2 [compile->runtime]
@@ -1752,15 +1752,29 @@ sbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.18
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->default(compile)]
-Read from stdout: Resolving postgresql#postgresql;9.1-901-1.jdbc4 ...
-Resolving postgresql#postgresql;9.1-901-1.jdbc4 ...
-sbt-chain: Checking cache for: dependency: postgresql#postgresql;9.1-901-1.jdbc4 {compile=[default(compile)]}
-sbt-chain: module revision found in cache: postgresql#postgresql;9.1-901-1.jdbc4
-	found postgresql#postgresql;9.1-901-1.jdbc4 in sbt-chain
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->runtime]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->compile]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->master]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+Read from stdout: Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+sbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.4-1201-jdbc41 {compile=[default(compile)]}
+Read from stdout: Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+sbt-chain-delegate: Checking cache for: dependency: org.postgresql#postgresql;9.4-1201-jdbc41 {compile=[default(compile)]}
+		tried C:\Users\bram.zerbe\.ivy2\local\org.postgresql\postgresql\9.4-1201-jdbc41\ivys\ivy.xml
+	local: no ivy file found for org.postgresql#postgresql;9.4-1201-jdbc41
+		tried https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom
+	public: found md file for org.postgresql#postgresql;9.4-1201-jdbc41
+		=> https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom (9.4-1201-jdbc41)
+downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom ...
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom.sha1
+sha1 OK for https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom
+	[SUCCESSFUL ] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.pom(pom.original) (168ms)
+		tried C:\Users\bram.zerbe\.ivy2\local\org.postgresql\postgresql\9.4-1201-jdbc41\jars\postgresql.jar
+		tried https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+	found org.postgresql#postgresql;9.4-1201-jdbc41 in public
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 resolving dependencies for configuration 'runtime'
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [runtime]
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [compile]
@@ -2590,10 +2604,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->default(compile)]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->runtime]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->compile]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->master]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 resolving dependencies for configuration 'test'
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [test]
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [runtime]
@@ -3424,10 +3438,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->default(compile)]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->runtime]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->compile]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->master]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->default(compile)]
 Read from stdout: Resolving com.typesafe.play#play-test_2.11;2.4.2 ...
 Resolving com.typesafe.play#play-test_2.11;2.4.2 ...
@@ -5198,10 +5212,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->default(compile)]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->runtime]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->compile]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->master]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [optional]
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [provided]
 resolving dependencies for configuration 'runtime-internal'
@@ -6034,10 +6048,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->default(compile)]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->runtime]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->compile]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->master]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [optional]
 resolving dependencies for configuration 'test-internal'
 == resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [test-internal]
@@ -6870,10 +6884,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->runtime]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->compile]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.18 [compile->master]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->default(compile)]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->runtime]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->compile]
-== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->master]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->default(compile)]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->runtime]
 == resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->compile]
@@ -8655,7 +8669,14 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.4.2!play-cache_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.4.2!play-java-ws_2.11.jar
 	[NOT REQUIRED] mysql#mysql-connector-java;5.1.18!mysql-connector-java.jar
-	[NOT REQUIRED] postgresql#postgresql;9.1-901-1.jdbc4!postgresql.jar
+		tried https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+Read from stdout: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar ...
+downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar ...
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar.sha1
+sha1 OK for https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+Read from stdout: 	[SUCCESSFUL ] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar (909ms)
+	[SUCCESSFUL ] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar (909ms)
 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.11;2.4.0!play-jdbc-evolutions_2.11.jar
@@ -8808,7 +8829,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-:: resolution report :: resolve 12357ms :: artifacts dl 217ms
+:: resolution report :: resolve 12346ms :: artifacts dl 1234ms
 	report for play-java#play-java_2.11;1.0-SNAPSHOT compile produced in C:\Users\bram.zerbe\website-java-play\target\resolution-cache\reports\play-java-play-java_2.11-compile.xml
 	report for play-java#play-java_2.11;1.0-SNAPSHOT runtime produced in C:\Users\bram.zerbe\website-java-play\target\resolution-cache\reports\play-java-play-java_2.11-runtime.xml
 	report for play-java#play-java_2.11;1.0-SNAPSHOT test produced in C:\Users\bram.zerbe\website-java-play\target\resolution-cache\reports\play-java-play-java_2.11-test.xml
@@ -8823,7 +8844,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	report for play-java#play-java_2.11;1.0-SNAPSHOT pom produced in C:\Users\bram.zerbe\website-java-play\target\resolution-cache\reports\play-java-play-java_2.11-pom.xml
 	report for play-java#play-java_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\bram.zerbe\website-java-play\target\resolution-cache\reports\play-java-play-java_2.11-scala-tool.xml
 	report for play-java#play-java_2.11;1.0-SNAPSHOT fork-run produced in C:\Users\bram.zerbe\website-java-play\target\resolution-cache\reports\play-java-play-java_2.11-fork-run.xml
-	resolve done (12357ms resolve - 217ms download)
+	resolve done (12346ms resolve - 1234ms download)
 Read from stdout: Done updating.
 Done updating.
 
@@ -8842,18 +8863,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 16 s, completed Aug 10, 2015 8:03:10 AM
+Total time: 18 s, completed Aug 10, 2015 8:29:24 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/bram.zerbe/website-java-play/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@2ed1a8c8, check cycles: false
-Total time: 0 s, completed Aug 10, 2015 8:03:10 AM
+Running task... Cancel: sbt.server.ServerTaskCancellation@3748259a, check cycles: false
+Total time: 0 s, completed Aug 10, 2015 8:29:24 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/bram.zerbe/website-java-play/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@2ef30b57, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@72893939, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -8870,13 +8891,13 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 2 s, completed Aug 10, 2015 8:03:12 AM
+Total time: 1 s, completed Aug 10, 2015 8:29:26 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/bram.zerbe/website-java-play/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@5b191751, check cycles: false
-Total time: 0 s, completed Aug 10, 2015 8:03:12 AM
+Running task... Cancel: sbt.server.ServerTaskCancellation@636715b0, check cycles: false
+Total time: 0 s, completed Aug 10, 2015 8:29:26 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -8885,4 +8906,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 3672@E430-SPED-22 logs at Mon Aug 10 08:28:46 EDT 2015, goodbye.
+Closing the 1152@E430-SPED-22 logs at Mon Aug 10 09:33:48 EDT 2015, goodbye.
